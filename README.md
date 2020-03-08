@@ -22,6 +22,10 @@ Port 80 is exposed for HTTP access.
     docker build -t "docker-2048" .
     docker run -d -p 80:80 docker-2048
 
+## Run the docker container by pulling the docker image directly from DockerHub
+
+    docker run -d -p 80:80 neusinn/docker-2048
+
 ## Access the web game localy
 
     http://127.0.0.1:80
